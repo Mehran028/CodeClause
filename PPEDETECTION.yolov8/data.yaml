@@ -1,0 +1,13 @@
+train: /content/gdrive/MyDrive/AIInternship/Object Detection System/PPEDETECTION.v4i.yolov8/train/images
+val: /content/gdrive/MyDrive/AIInternship/Object Detection System/PPEDETECTION.v4i.yolov8/valid/images
+test: /content/gdrive/MyDrive/AIInternship/Object Detection System/PPEDETECTION.v4i.yolov8/test/images
+
+nc: 5
+names: ['Gloves', 'Hard_hat', 'Person', 'Safety_boots', 'Vest']
+
+roboflow:
+  workspace: sdp-lfigk
+  project: ppe-detection-ozhfb
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sdp-lfigk/ppe-detection-ozhfb/dataset/4
